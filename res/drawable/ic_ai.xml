@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chat bubble with a spark on a round background. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF7B1FA2"
+        android:pathData="M12,0A12,12 0,1 1,12 24A12,12 0,1 1,12 0Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6.5,6.5h11c0.55,0 1,0.45 1,1v7c0,0.55 -0.45,1 -1,1H10l-3.5,3v-3c-0.55,0 -1,-0.45 -1,-1v-7C5.5,6.95 5.95,6.5 6.5,6.5z" />
+    <path
+        android:fillColor="#FF7B1FA2"
+        android:pathData="M12,8.2l0.75,2.05l2.05,0.75l-2.05,0.75l-0.75,2.05l-0.75,-2.05l-2.05,-0.75l2.05,-0.75z" />
+</vector>

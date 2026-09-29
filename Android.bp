@@ -1,0 +1,17 @@
+// "AI Chat": full-screen WebView on the on-device llama.cpp server's web UI
+// (vendor.llama-server, http://127.0.0.1:8080, see ../llama.cpp/llama-server.rc).
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "AiChat",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    sdk_version: "current",
+    product_specific: true,
+    certificate: "platform",
+    optimize: {
+        enabled: false,
+    },
+}
